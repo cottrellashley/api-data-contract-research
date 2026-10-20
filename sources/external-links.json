@@ -1,0 +1,574 @@
+{
+  "research_date": "2026-10-20",
+  "scope": "HTTP(S) citations; historical URLs retained; reachability not tested by this script",
+  "sources": [
+    {
+      "url": "https://avro.apache.org/docs/1.12.0/specification/",
+      "referenced_by": [
+        "docs/data-evolution-patterns.md",
+        "reviews/data-contract-audit.md",
+        "sources/README.md"
+      ]
+    },
+    {
+      "url": "https://azure.github.io/azure-sdk/dotnet_introduction.html",
+      "referenced_by": [
+        "sources/README.md"
+      ]
+    },
+    {
+      "url": "https://azure.github.io/azure-sdk/general_design.html",
+      "referenced_by": [
+        "sources/README.md"
+      ]
+    },
+    {
+      "url": "https://azure.github.io/azure-sdk/general_design.html#service-api-versions",
+      "referenced_by": [
+        "docs/vendor-case-studies.md",
+        "reviews/vendor-claims-audit.md"
+      ]
+    },
+    {
+      "url": "https://azure.github.io/azure-sdk/java_introduction.html",
+      "referenced_by": [
+        "sources/README.md"
+      ]
+    },
+    {
+      "url": "https://azure.github.io/azure-sdk/python_design.html",
+      "referenced_by": [
+        "sources/README.md"
+      ]
+    },
+    {
+      "url": "https://azure.github.io/azure-sdk/releases/latest/python.html",
+      "referenced_by": [
+        "sources/README.md"
+      ]
+    },
+    {
+      "url": "https://debezium.io/documentation/reference/stable/connectors/mysql.html",
+      "referenced_by": [
+        "docs/data-evolution-patterns.md",
+        "reviews/data-contract-audit.md",
+        "sources/README.md"
+      ]
+    },
+    {
+      "url": "https://dlthub.com/docs/general-usage/schema-contracts",
+      "referenced_by": [
+        "docs/data-evolution-patterns.md",
+        "reviews/data-contract-audit.md",
+        "sources/README.md"
+      ]
+    },
+    {
+      "url": "https://docs.axoniq.io/axon-framework-reference/4.12/events/event-versioning/",
+      "referenced_by": [
+        "docs/data-evolution-patterns.md",
+        "sources/README.md"
+      ]
+    },
+    {
+      "url": "https://docs.confluent.io/platform/7.7/schema-registry/fundamentals/schema-evolution.html",
+      "referenced_by": [
+        "sources/README.md"
+      ]
+    },
+    {
+      "url": "https://docs.confluent.io/platform/8.0/schema-registry/fundamentals/data-contracts.html",
+      "referenced_by": [
+        "sources/README.md"
+      ]
+    },
+    {
+      "url": "https://docs.confluent.io/platform/current/schema-registry/fundamentals/data-contracts.html",
+      "referenced_by": [
+        "docs/reference-architecture.md",
+        "sources/README.md"
+      ]
+    },
+    {
+      "url": "https://docs.confluent.io/platform/current/schema-registry/fundamentals/schema-evolution.html",
+      "referenced_by": [
+        "docs/data-evolution-patterns.md",
+        "reviews/data-contract-audit.md",
+        "sources/README.md"
+      ]
+    },
+    {
+      "url": "https://docs.confluent.io/platform/current/schema-registry/fundamentals/serdes-develop/index.html",
+      "referenced_by": [
+        "reviews/data-contract-audit.md",
+        "sources/README.md"
+      ]
+    },
+    {
+      "url": "https://docs.databricks.com/aws/en/data-engineering/schema-evolution",
+      "referenced_by": [
+        "sources/README.md"
+      ]
+    },
+    {
+      "url": "https://docs.databricks.com/aws/en/ingestion/cloud-object-storage/auto-loader/schema",
+      "referenced_by": [
+        "docs/data-evolution-patterns.md",
+        "sources/README.md"
+      ]
+    },
+    {
+      "url": "https://docs.databricks.com/aws/en/ingestion/cloud-object-storage/auto-loader/type-widening",
+      "referenced_by": [
+        "sources/README.md"
+      ]
+    },
+    {
+      "url": "https://docs.getdbt.com/docs/mesh/govern/about-model-governance",
+      "referenced_by": [
+        "sources/README.md"
+      ]
+    },
+    {
+      "url": "https://docs.getdbt.com/docs/mesh/govern/model-contracts",
+      "referenced_by": [
+        "docs/data-evolution-patterns.md",
+        "sources/README.md"
+      ]
+    },
+    {
+      "url": "https://docs.getdbt.com/docs/mesh/govern/model-versions",
+      "referenced_by": [
+        "docs/data-evolution-patterns.md",
+        "sources/README.md"
+      ]
+    },
+    {
+      "url": "https://docs.pact.io/pact_broker/can_i_deploy",
+      "referenced_by": [
+        "docs/operational-patterns.md"
+      ]
+    },
+    {
+      "url": "https://docs.pact.io/provider",
+      "referenced_by": [
+        "docs/operational-patterns.md"
+      ]
+    },
+    {
+      "url": "https://docs.pydantic.dev/latest/api/config/",
+      "referenced_by": [
+        "docs/client-and-api-design.md",
+        "sources/README.md"
+      ]
+    },
+    {
+      "url": "https://docs.stripe.com/api/idempotent_requests",
+      "referenced_by": [
+        "docs/operational-patterns.md"
+      ]
+    },
+    {
+      "url": "https://docs.stripe.com/api/versioning",
+      "referenced_by": [
+        "docs/vendor-case-studies.md",
+        "reviews/vendor-claims-audit.md",
+        "sources/README.md"
+      ]
+    },
+    {
+      "url": "https://docs.stripe.com/events/how-events-work",
+      "referenced_by": [
+        "docs/vendor-case-studies.md",
+        "reviews/vendor-claims-audit.md"
+      ]
+    },
+    {
+      "url": "https://docs.stripe.com/upgrades",
+      "referenced_by": [
+        "docs/vendor-case-studies.md"
+      ]
+    },
+    {
+      "url": "https://docs.stripe.com/webhooks",
+      "referenced_by": [
+        "docs/operational-patterns.md",
+        "docs/vendor-case-studies.md"
+      ]
+    },
+    {
+      "url": "https://github.com/MicrosoftDocs/azure-docs-cli/blob/main/docs-ref-conceptual/Latest-version/upcoming-breaking-changes.md",
+      "referenced_by": [
+        "sources/README.md"
+      ]
+    },
+    {
+      "url": "https://github.com/MicrosoftDocs/azure-monitor-docs/blob/main/articles/azure-monitor/logs/api/access-api.md",
+      "referenced_by": [
+        "sources/README.md"
+      ]
+    },
+    {
+      "url": "https://github.com/astronomer/astro-cli",
+      "referenced_by": [
+        "sources/README.md"
+      ]
+    },
+    {
+      "url": "https://github.com/astronomer/astro-cli/blob/fa7ec664b1151b766cd37992382ed7ddeb3ea019/Makefile",
+      "referenced_by": [
+        "sources/README.md"
+      ]
+    },
+    {
+      "url": "https://github.com/astronomer/astro-cli/blob/fa7ec664b1151b766cd37992382ed7ddeb3ea019/README.md",
+      "referenced_by": [
+        "reviews/vendor-claims-audit.md",
+        "sources/README.md"
+      ]
+    },
+    {
+      "url": "https://github.com/astronomer/astro-cli/blob/fa7ec664b1151b766cd37992382ed7ddeb3ea019/README.md#versions",
+      "referenced_by": [
+        "docs/vendor-case-studies.md"
+      ]
+    },
+    {
+      "url": "https://github.com/astronomer/astro-cli/blob/fa7ec664b1151b766cd37992382ed7ddeb3ea019/astro-client-v1/api.cfg.yaml",
+      "referenced_by": [
+        "sources/README.md"
+      ]
+    },
+    {
+      "url": "https://github.com/astronomer/astro-cli/blob/fa7ec664b1151b766cd37992382ed7ddeb3ea019/astro-client-v1/client.go",
+      "referenced_by": [
+        "docs/vendor-case-studies.md",
+        "reviews/vendor-claims-audit.md",
+        "sources/README.md"
+      ]
+    },
+    {
+      "url": "https://github.com/astronomer/astro-cli/blob/fa7ec664b1151b766cd37992382ed7ddeb3ea019/main.go",
+      "referenced_by": [
+        "docs/vendor-case-studies.md",
+        "reviews/vendor-claims-audit.md",
+        "sources/README.md"
+      ]
+    },
+    {
+      "url": "https://github.com/astronomer/astro-cli/blob/fa7ec664b1151b766cd37992382ed7ddeb3ea019/pkg/httputil/request_editor.go",
+      "referenced_by": [
+        "docs/vendor-case-studies.md",
+        "reviews/vendor-claims-audit.md",
+        "sources/README.md"
+      ]
+    },
+    {
+      "url": "https://github.com/astronomer/astro-cli/blob/fa7ec664b1151b766cd37992382ed7ddeb3ea019/version/version.go",
+      "referenced_by": [
+        "sources/README.md"
+      ]
+    },
+    {
+      "url": "https://github.com/astronomer/astro-cli/commit/fa7ec664b1151b766cd37992382ed7ddeb3ea019",
+      "referenced_by": [
+        "reviews/vendor-claims-audit.md",
+        "sources/README.md"
+      ]
+    },
+    {
+      "url": "https://github.com/astronomer/astro-cli/releases",
+      "referenced_by": [
+        "sources/README.md"
+      ]
+    },
+    {
+      "url": "https://github.com/cloudevents/spec/blob/v1.0.2/cloudevents/spec.md",
+      "referenced_by": [
+        "docs/operational-patterns.md"
+      ]
+    },
+    {
+      "url": "https://github.com/microsoft/api-guidelines/blob/vNext/azure/Guidelines.md",
+      "referenced_by": [
+        "sources/README.md"
+      ]
+    },
+    {
+      "url": "https://github.com/microsoft/api-guidelines/blob/vNext/azure/Guidelines.md#enums--sdks-client-libraries",
+      "referenced_by": [
+        "docs/client-and-api-design.md"
+      ]
+    },
+    {
+      "url": "https://github.com/oasdiff/oasdiff/blob/main/docs/BREAKING-CHANGES.md",
+      "referenced_by": [
+        "docs/client-and-api-design.md",
+        "sources/README.md"
+      ]
+    },
+    {
+      "url": "https://go.dev/ref/mod#major-version-suffixes",
+      "referenced_by": [
+        "docs/client-and-api-design.md",
+        "sources/README.md"
+      ]
+    },
+    {
+      "url": "https://google.aip.dev/158",
+      "referenced_by": [
+        "docs/operational-patterns.md"
+      ]
+    },
+    {
+      "url": "https://google.aip.dev/180",
+      "referenced_by": [
+        "docs/research-foundations.md",
+        "sources/README.md"
+      ]
+    },
+    {
+      "url": "https://iceberg.apache.org/docs/latest/evolution/",
+      "referenced_by": [
+        "docs/data-evolution-patterns.md",
+        "reviews/data-contract-audit.md",
+        "sources/README.md"
+      ]
+    },
+    {
+      "url": "https://iceberg.apache.org/docs/latest/maintenance/",
+      "referenced_by": [
+        "docs/data-evolution-patterns.md",
+        "reviews/data-contract-audit.md",
+        "sources/README.md"
+      ]
+    },
+    {
+      "url": "https://iceberg.apache.org/docs/latest/reliability/",
+      "referenced_by": [
+        "docs/data-evolution-patterns.md",
+        "reviews/data-contract-audit.md",
+        "sources/README.md"
+      ]
+    },
+    {
+      "url": "https://json-schema.org/understanding-json-schema/reference/annotations",
+      "referenced_by": [
+        "docs/data-evolution-patterns.md",
+        "reviews/data-contract-audit.md",
+        "sources/README.md"
+      ]
+    },
+    {
+      "url": "https://json-schema.org/understanding-json-schema/reference/object",
+      "referenced_by": [
+        "docs/data-evolution-patterns.md",
+        "reviews/data-contract-audit.md",
+        "sources/README.md"
+      ]
+    },
+    {
+      "url": "https://kubernetes.io/releases/version-skew-policy/",
+      "referenced_by": [
+        "docs/operational-patterns.md"
+      ]
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/azure/api-management/api-management-versions",
+      "referenced_by": [
+        "docs/vendor-case-studies.md",
+        "reviews/vendor-claims-audit.md",
+        "sources/README.md"
+      ]
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/anti-corruption-layer",
+      "referenced_by": [
+        "docs/reference-architecture.md",
+        "sources/README.md"
+      ]
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/azure/azure-monitor/logs/api/response-format",
+      "referenced_by": [
+        "docs/reference-architecture.md",
+        "docs/vendor-case-studies.md",
+        "reviews/vendor-claims-audit.md",
+        "sources/README.md"
+      ]
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/control-plane-and-data-plane",
+      "referenced_by": [
+        "docs/operational-patterns.md"
+      ]
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/azure/developer/intro/azure-service-sdk-tool-versioning",
+      "referenced_by": [
+        "docs/vendor-case-studies.md",
+        "reviews/vendor-claims-audit.md",
+        "sources/README.md"
+      ]
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/cli/azure/azure-cli-support-lifecycle?view=azure-cli-latest",
+      "referenced_by": [
+        "docs/vendor-case-studies.md",
+        "reviews/vendor-claims-audit.md",
+        "sources/README.md"
+      ]
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/python/api/azure-storage-blob/azure.storage.blob.blobserviceclient?view=azure-python",
+      "referenced_by": [
+        "docs/vendor-case-studies.md",
+        "reviews/vendor-claims-audit.md"
+      ]
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/rest/api/storageservices/versioning-best-practices",
+      "referenced_by": [
+        "sources/README.md"
+      ]
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/rest/api/storageservices/versioning-for-the-azure-storage-services",
+      "referenced_by": [
+        "docs/vendor-case-studies.md",
+        "reviews/vendor-claims-audit.md",
+        "sources/README.md"
+      ]
+    },
+    {
+      "url": "https://learn.microsoft.com/python/api/azure-storage-blob/azure.storage.blob.blobserviceclient",
+      "referenced_by": [
+        "sources/README.md"
+      ]
+    },
+    {
+      "url": "https://prometheus.io/docs/practices/naming/",
+      "referenced_by": [
+        "docs/operational-patterns.md"
+      ]
+    },
+    {
+      "url": "https://protobuf.dev/programming-guides/json/",
+      "referenced_by": [
+        "docs/data-evolution-patterns.md",
+        "reviews/data-contract-audit.md",
+        "sources/README.md"
+      ]
+    },
+    {
+      "url": "https://protobuf.dev/programming-guides/proto3/",
+      "referenced_by": [
+        "docs/data-evolution-patterns.md",
+        "reviews/data-contract-audit.md",
+        "sources/README.md"
+      ]
+    },
+    {
+      "url": "https://www.astronomer.io/blog/announcing-astro-api-v1-ga/",
+      "referenced_by": [
+        "reviews/vendor-claims-audit.md",
+        "sources/README.md"
+      ]
+    },
+    {
+      "url": "https://www.astronomer.io/docs/api/versioning-and-support/",
+      "referenced_by": [
+        "sources/README.md"
+      ]
+    },
+    {
+      "url": "https://www.astronomer.io/docs/astro/api/deploy-with-api",
+      "referenced_by": [
+        "sources/README.md"
+      ]
+    },
+    {
+      "url": "https://www.astronomer.io/docs/astro/api/migrate-v1-api",
+      "referenced_by": [
+        "sources/README.md"
+      ]
+    },
+    {
+      "url": "https://www.astronomer.io/docs/astro/api/overview",
+      "referenced_by": [
+        "reviews/vendor-claims-audit.md",
+        "sources/README.md"
+      ]
+    },
+    {
+      "url": "https://www.astronomer.io/docs/astro/api/v-1-beta-1/migrate-v1-api",
+      "referenced_by": [
+        "docs/vendor-case-studies.md",
+        "reviews/vendor-claims-audit.md",
+        "sources/README.md"
+      ]
+    },
+    {
+      "url": "https://www.astronomer.io/docs/astro/api/v-1/overview",
+      "referenced_by": [
+        "docs/vendor-case-studies.md",
+        "reviews/vendor-claims-audit.md",
+        "sources/README.md"
+      ]
+    },
+    {
+      "url": "https://www.astronomer.io/docs/astro/api/v-1/versioning-and-support",
+      "referenced_by": [
+        "docs/vendor-case-studies.md",
+        "reviews/vendor-claims-audit.md",
+        "sources/README.md"
+      ]
+    },
+    {
+      "url": "https://www.astronomer.io/docs/astro/api/versioning-and-support",
+      "referenced_by": [
+        "sources/README.md"
+      ]
+    },
+    {
+      "url": "https://www.astronomer.io/docs/astro/cli/reference",
+      "referenced_by": [
+        "sources/README.md"
+      ]
+    },
+    {
+      "url": "https://www.astronomer.io/docs/runtime/upgrade-astro-runtime",
+      "referenced_by": [
+        "sources/README.md"
+      ]
+    },
+    {
+      "url": "https://www.oasdiff.com/docs/getting-started",
+      "referenced_by": [
+        "sources/README.md"
+      ]
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc8594.html",
+      "referenced_by": [
+        "docs/change-playbook.md",
+        "docs/operational-patterns.md",
+        "sources/README.md"
+      ]
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc9111.html",
+      "referenced_by": [
+        "docs/operational-patterns.md"
+      ]
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc9745.html",
+      "referenced_by": [
+        "docs/change-playbook.md",
+        "docs/operational-patterns.md",
+        "sources/README.md"
+      ]
+    }
+  ]
+}

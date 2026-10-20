@@ -1,0 +1,7 @@
+{
+  "old_source": {"writer_schema": "vendor-a/orders/1", "payload": {"order_id": "o-1", "customer_id": "c-1", "total_cents": 1250}},
+  "new_source": {"writer_schema": "vendor-a/orders/2", "payload": {"order_id": "o-1", "customer": {"id": "c-1"}, "total": "12.50", "currency": "USD"}},
+  "invalid_precision": {"writer_schema": "vendor-a/orders/2", "payload": {"order_id": "o-2", "customer": {"id": "c-2"}, "total": "12.505", "currency": "USD"}},
+  "missing_required": {"writer_schema": "vendor-a/orders/1", "payload": {"order_id": "o-3", "total_cents": 100}},
+  "unknown_schema": {"writer_schema": "vendor-a/orders/99", "payload": {"order_id": "o-4", "amount": 12.50}}
+}

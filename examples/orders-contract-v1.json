@@ -1,0 +1,26 @@
+{
+  "contract_id": "orders/1",
+  "status": "illustrative",
+  "owner": "commerce-data",
+  "schema": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["order_id", "customer_id", "amount_minor", "currency"],
+    "properties": {
+      "order_id": {"type": "string", "minLength": 1, "pattern": "\\S"},
+      "customer_id": {"type": "string", "minLength": 1, "pattern": "\\S"},
+      "amount_minor": {"type": "integer", "minimum": 0, "maximum": 9223372036854775807},
+      "currency": {"type": "string", "enum": ["USD"]}
+    }
+  },
+  "semantics": {
+    "grain": "one row per order",
+    "amount_definition": "gross order total including tax, before refunds",
+    "amount_unit": "USD cents",
+    "refunds": "not represented by this illustrative data product"
+  },
+  "quality": {"unique_key": ["order_id"], "require_complete_extraction": true},
+  "ingestion": {"unknown_source_fields": "retain outside public projection", "invalid_records": "quarantine"},
+  "publication": {"invalid_record_threshold": 0, "on_failure": "keep previous validated publication"},
+  "limits": {"freshness_policy": "must be configured before production", "authorization": "must be enforced by serving boundary"}
+}

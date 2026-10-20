@@ -1,0 +1,15 @@
+{
+  "bundle_id": "orders-bundle/1",
+  "status": "illustrative",
+  "api_contract": "v1",
+  "public_data_contract": "orders/1",
+  "contract_file": "orders-contract-v1.json",
+  "mapping_revision": "orders-normalizer/1",
+  "accepted_sources": [
+    {"source_id": "vendor-a", "writer_schema": "vendor-a/orders/1", "currency_guarantee": "USD"},
+    {"source_id": "vendor-a", "writer_schema": "vendor-a/orders/2", "currency_guarantee": "explicit USD only"}
+  ],
+  "public_projection": "orders/1",
+  "publication_policy": "complete extraction and zero invalid records and unique order_id",
+  "rollback_requirement": "previous publication retained; previous mapping may not accept current writer schemas"
+}
